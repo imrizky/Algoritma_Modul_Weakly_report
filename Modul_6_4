@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main() {
+    char akun[] = "Hattori";  
+    char no_rek[] = "0123";   
+    float saldo = 175000;    
+    int pilihan;              
+    float setoran, penarikan;  
+
+   
+    while(1) {
+        printf("\nATM\n");
+        printf("1) Cek Saldo\n");
+        printf("2) Setoran\n");
+        printf("3) Penarikan Tunai\n");
+        printf("4) Exit\n");
+        printf("Pilih menu (1-4): ");
+        scanf("%d", &pilihan);
+
+        switch(pilihan) {
+            case 1:  
+                printf("\nNo Rekening: %s\n", no_rek);
+                printf("Nama Akun: %s\n", akun);
+                printf("Saldo ATM: Rp. %.2f\n", saldo);
+                break;
+
+            case 2:  // Setoran
+                printf("\nMasukkan jumlah setoran: Rp. ");
+                scanf("%f", &setoran);
+                saldo += setoran;  
+                printf("Setoran berhasil! Saldo sekarang: Rp. %.2f\n", saldo);
+                break;
+
+            case 3:  
+                printf("\nMasukkan jumlah penarikan: Rp. ");
+                scanf("%f", &penarikan);
+                
+                if(saldo - penarikan >= 50000) {
+                    saldo -= penarikan;  
+                    printf("Penarikan berhasil! Saldo sekarang: Rp. %.2f\n", saldo);
+                } else {
+                    printf("Penarikan gagal! Saldo minimal adalah Rp. 50.000.\n");
+                }
+                break;
+
+            case 4:  
+                printf("\nTerima kasih telah menggunakan layanan ATM.\n");
+                return 0;
+
+            default:
+                printf("Pilihan tidak valid! Silakan pilih menu yang benar.\n");
+        }
+    }
+
+    return 0;
+}
