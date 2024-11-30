@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>  
+
+float luas(float r) {
+    return M_PI * r * r;
+}
+
+float keliling(float r) {
+    return 2 * M_PI * r;
+}
+
+int main() {
+    float radius;
+
+    printf("Masukkan jari-jari lingkaran: ");
+    scanf("%f", &radius);
+
+    float luasLingkaran = luas(radius);
+    float kelilingLingkaran = keliling(radius);
+
+    printf("Luas lingkaran dengan jari-jari %.2f adalah: %.2f\n", radius, luasLingkaran);
+    printf("Keliling lingkaran dengan jari-jari %.2f adalah: %.2f\n", radius, kelilingLingkaran);
+
+    return 0;
+}
