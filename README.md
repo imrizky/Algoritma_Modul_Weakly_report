@@ -344,3 +344,38 @@ Hasil Bagi: Menggunakan operator modulus (%), yang menghasilkan sisa bagi, dan j
 Program menampilkan hasil perhitungan sesuai dengan operasi yang dipilih.
 
 # modul 5_2
+dari modul ini kita di minta untuk membuat program yang berisi tentang menghitung luas permukaan empaat bentuk geometri yang berbeda, yaitu bola,kubus, balok, dan,tabung. program ini di rancang menggunakan fitur switch case untuk memilih opsi pilihan yang di inginkan dan sudah di rancang menggunakan rumus masing masing.
+
+## Penggunaan switch-case:
+
+Program menggunakan struktur switch-case untuk memilih rumus berdasarkan pilihan pengguna (1-4). Struktur ini memungkinkan program untuk mengeksekusi blok kode yang berbeda sesuai dengan input yang diberikan.
+
+## Perhitungan Luas Permukaan Berdasarkan Rumus:
+
+### Bola: Program menghitung luas permukaan bola dengan rumus 
+```
+4 𝜋 𝑟 ^2
+```
+### Kubus: Program menghitung luas permukaan kubus dengan rumus 
+```
+6 𝑠 ^2 
+```
+### Balok: Program menghitung luas permukaan balok dengan rumus 
+```
+2 ( 𝑝 × 𝑙 + 𝑝 × 𝑡 + 𝑙 × 𝑡 )
+```
+### Tabung: Program menghitung luas permukaan tabung dengan rumus  
+```
+2 𝜋 𝑟 ( 𝑟 + 𝑡 )
+```
+## Interaksi dengan Pengguna:
+
+Program meminta pengguna untuk memasukkan nilai yang diperlukan (misalnya, radius, sisi, panjang, dll.) dan menghitung luas permukaan sesuai dengan input tersebut.
+Program memberikan output berupa hasil perhitungan yang telah diformat dengan dua angka di belakang koma.
+## Validasi Pilihan Pengguna:
+
+Jika pengguna memasukkan pilihan yang tidak valid (selain 1-4), program akan menampilkan pesan bahwa pilihan tersebut tidak valid.
+
+## Penggunaan Fungsi untuk Setiap Rumus:
+
+Setiap rumus luas permukaan dijalankan dalam fungsi terpisah yang menerima parameter sesuai dengan bentuk yang dihitung. Ini membuat program lebih terstruktur dan mudah dipahami.
