@@ -379,3 +379,44 @@ Jika pengguna memasukkan pilihan yang tidak valid (selain 1-4), program akan men
 ## Penggunaan Fungsi untuk Setiap Rumus:
 
 Setiap rumus luas permukaan dijalankan dalam fungsi terpisah yang menerima parameter sesuai dengan bentuk yang dihitung. Ini membuat program lebih terstruktur dan mudah dipahami.
+
+## Modul 5_4
+Pada modul ini di minta untuk membuat program menhitung nilai akhir mahasiswa dengan mempertimbangkan bobot ilai kehadiran, UTS, dan UAs kemudian di tentukan grade dan memberikan pesan kelulusan sesuai dengan grade masing-masing.
+
+Input Nilai:
+
+Program meminta input nilai kehadiran, tugas, UTS, dan UAS dari pengguna dalam rentang 0 hingga 100.
+
+## Menghitung Nilai Akhir:
+```
+Nilai akhir dihitung dengan rumus:
+Nilai Akhir = ( 0.2 × Nilai Kehadiran ) + ( 0.2 × Nilai Tugas ) + ( 0.25 ×
+Nilai UTS ) + ( 0.35 × Nilai UAS )
+```
+Rumus ini mempertimbangkan bobot dari setiap komponen nilai yang diberikan (Kehadiran: 20%, Tugas: 20%, UTS: 25%, UAS: 35%).
+
+## Penentuan Rentang Nilai:
+
+Berdasarkan nilai akhir yang dihitung, program menentukan rentang nilai dan menampilkan grade serta pesan kelulusan sesuai dengan rentang nilai yang 
+telah ditentukan:
+
+0-44 (E): Tidak lulus
+45-55 (D): Tidak lulus
+56-65 (C): Lulus, tingkatkan lagi
+66-75 (B): Lulus dengan baik, tingkatkan terus
+76-80 (B): Lulus dengan baik, tingkatkan terus
+81-85 (B+): Lulus dengan baik, tingkatkan terus
+86-90 (A): Lulus dengan nilai sangat memuaskan
+91-100 (A): Lulus dengan nilai sangat memuaskan
+
+## Pesan Kelulusan:
+
+Berdasarkan nilai akhir, program akan menampilkan pesan terkait kelulusan dan rekomendasi untuk meningkatkan kinerja jika diperlukan.
+
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>   Modul 6 Flow Control Loop (Perulangan)
+Pada modul ini di berikan sedikit pembahsan tentang putaran atau perulangan.  dari pembahasan tentang putaran atau perulangan (loop) dalam pemrograman adalah sebagai berikut:
+
+Loop atau perulangan merupakan konstruksi dalam aliran kontrol yang memungkinkan sebuah bagian dari kode untuk dieksekusi berulang kali berdasarkan kondisi tertentu. Penggunaan loop memberikan kemudahan dalam pemrograman, karena memungkinkan kita untuk menghindari penulisan kode yang berulang dan membuat program menjadi lebih ringkas dan efisien. Dengan loop, berbagai tugas yang membutuhkan pengulangan dapat dilakukan dengan lebih cepat dan sederhana, seperti mengolah data dalam array atau melakukan pengecekan yang berulang. Tipe-tipe loop yang umum digunakan dalam pemrograman termasuk for loop, while loop, dan do-while loop, yang masing-masing memiliki karakteristik dan kegunaan yang berbeda.
+
+
+
