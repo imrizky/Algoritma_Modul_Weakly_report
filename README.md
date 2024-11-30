@@ -36,7 +36,7 @@ Langkah 3: Jika ditemukan nilai yang lebih besar, perbarui nilai maksimum sement
 Langkah 4: Lanjutkan hingga semua elemen array diperiksa.
 Output: Nilai maksimum dari array.
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> # Modul 2
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 2
 Mengajarakan tentang Program dasar yang mana berisi tentang Program halo siapa nama mu penjelasan sedikit tentang program 
 ## Deklarasi variable
 
@@ -118,7 +118,7 @@ Di dalam program ini, rumus ditulis sebagai luas = panjang * lebar;.
 /
 Program menampilkan panjang, lebar, dan luas persegi panjang dalam satuan cm dan cm².
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture># Modul 3
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 3
 Pada modul ini Belajar tentag Variable, Konstata dan Tipe Data
 Inti dari sebuah program komputer adalah menerima input, melakukan
 pemrosesan, dan menghasilkan output. Nilai input bisa kita dapatkan dari
@@ -209,9 +209,93 @@ Luas permukaan dihitung dengan rumus tersebut, menggunakan jari-jari bola.
 
 Program menampilkan hasil diameter, jari-jari, volume, dan luas permukaan bola dengan dua angka di belakang koma.
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> # Modul 4
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 4
 Modul 4 ini berisi tentang Operator yaitu Operator adalah sebuah simbol. Simbol yang digunakan untuk melakukan
 operasi tertentu. Misalnya: Kita ingin menjumlahkan nilai dari variabel x dan y, maka kita bisa menggunakan operator penjumlahan (+).
 x + y
 
-Modul 4_1
+## Modul 4_1
+pada modul ini kita belajar tentang konversi waktu yang di mana di gunakan konversi waktu (Jam) 1 Jam, 1menit, 40Detik, maka rumus yang di gunakan sudah sesuai dengan rumus konversi yang di cantumkan ke dalam program 
+
+## Deklarasi Variabel:
+
+totalDetik: untuk menyimpan jumlah detik yang dimasukkan pengguna.
+jam, menit, dan detik: untuk menyimpan hasil konversi dari detik ke jam, menit, dan detik.
+Input Jumlah Detik:
+
+Program meminta pengguna untuk memasukkan jumlah detik menggunakan scanf("%d", &totalDetik);.
+## Perhitungan Jam, Menit, dan Detik:
+
+Jam dihitung dengan cara jam = totalDetik / 3600;.
+Menit dihitung dengan cara menit = (totalDetik % 3600) / 60;, dimana kita menggunakan sisa detik setelah dihitung jam.
+Detik dihitung dengan cara detik = totalDetik % 60; setelah mengurangi jam dan menit.
+## Output:
+
+Program menampilkan hasil konversi dalam format "X Jam, Y Menit, Z Detik".
+
+## Modul 4_2
+pada program ini di berikan simulasi mengimplementasi dari sebuah transaksi dengan kasir dengan inputan yang dapat disesuaikan dan output yang mudah di pahami 
+
+## Deklarasi Variabel:
+
+namaPembeli[100] dan namaBarang[100] adalah array karakter untuk menyimpan nama pembeli dan nama barang.
+hargaSatuan adalah variabel bertipe float untuk menyimpan harga per unit barang.
+jumlahBarang adalah variabel bertipe int untuk menyimpan jumlah barang yang dibeli.
+hargaTotal adalah variabel bertipe float untuk menyimpan total harga yang dihitung.
+
+## Input Data:
+
+fgets digunakan untuk menerima input yang bisa mengandung spasi (seperti nama pembeli dan nama barang).
+scanf digunakan untuk menerima input harga satuan dan jumlah barang.
+
+## Perhitungan Harga Total:
+
+hargaTotal dihitung dengan cara mengalikan harga satuan dengan jumlah barang: hargaTotal = hargaSatuan * jumlahBarang;.
+
+## Menampilkan Hasil:
+
+Program mencetak hasil input dan perhitungan total harga dalam format struk pembelian yang sederhana.
+
+Modul 4_3
+Di program ini diajarkan tenatang cara menghitung nilai akhirmahasiswa berdasarkan jumlah nilai yang di berikan secara individu opleh pengguna 
+
+## Deklarasi Variabel:
+
+Variabel nilaiPresensi, nilaiPraktek, nilaiUTS, dan nilaiUAS masing-masing diisi dengan nilai 85, 65, 80, dan 75.
+Variabel nilaiAkhir digunakan untuk menyimpan hasil perhitungan nilai akhir.
+
+## Perhitungan Nilai Akhir:
+
+Nilai akhir dihitung dengan mengalikan setiap nilai dengan bobotnya:
+Nilai Presensi (85) * 10% = 8.5
+Nilai Praktek (65) * 20% = 13
+Nilai UTS (80) * 30% = 24
+Nilai UAS (75) * 40% = 30
+Kemudian, hasilnya dijumlahkan untuk mendapatkan nilai akhir: 8.5 + 13 + 24 + 30 = 75.5.
+
+## Menampilkan Hasil:
+
+Program mencetak hasil nilai akhir yang dihitung dengan format dua angka di belakang koma menggunakan %.2f.
+
+Modul 4_5
+Pada modul ini program ini memberikan sebuah solusi yang tepat untuk menghitung total biaya berdasarkan durasi menonton film dengan memperhitungkan tarif berbeda untuk jam dan berikutnya 
+
+## Deklarasi Variabel:
+
+durasi adalah variabel yang akan menyimpan jumlah jam yang digunakan untuk menonton film.
+tarifJamPertama adalah tarif untuk jam pertama (Rp 15.000).
+tarifBerikutnya adalah tarif untuk jam-jam berikutnya (50% dari tarif jam pertama).
+totalBiaya adalah variabel untuk menyimpan total biaya yang harus dibayar.
+
+## Perhitungan Total Biaya:
+
+Jika durasi menonton hanya 1 jam, maka biaya yang dikenakan adalah Rp 15.000.
+Jika durasi lebih dari 1 jam, biaya pertama adalah Rp 15.000, dan untuk jam-jam berikutnya, dihitung dengan tarif Rp 7.500 per jam.
+
+## Input dan Output:
+
+Program meminta input durasi menonton film dalam jam, kemudian menghitung total biaya berdasarkan durasi tersebut.
+Program menampilkan total biaya yang harus dibayar.
+
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 5
+
