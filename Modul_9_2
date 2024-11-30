@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <string.h>
+
+void balikkanKalimat(char *kalimat) {
+    int panjang = strlen(kalimat);
+    int i, j;
+
+    for (i = 0, j = panjang - 1; i < j; i++, j--) {
+        char temp = kalimat[i];
+        kalimat[i] = kalimat[j];
+        kalimat[j] = temp;
+    }
+}
+
+int main() {
+    char kalimat[100];
+    
+    printf("Masukkan kalimat: ");
+    fgets(kalimat, sizeof(kalimat), stdin);
+    
+    kalimat[strcspn(kalimat, "\n")] = '\0';
+
+    printf("Kalimat Masukan : %s\n", kalimat);
+    balikkanKalimat(kalimat);
+    printf("Kebalikannya    : %s\n", kalimat);
+    
+    return 0;
+}
