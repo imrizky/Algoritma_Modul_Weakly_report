@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int tebakan, angkaKomputer, percobaan;
+    char bermainLagi;
+
+    srand(time(0));
+
+    do {
+        angkaKomputer = rand() % 20 + 1;
+        percobaan = 0;
+
+        printf("Tebak angka yang saya pilih antara 1 dan 20: \n");
+
+        do {
+            printf("Masukkan tebakan anda: ");
+            scanf("%d", &tebakan);
+            percobaan++;
+
+            if (tebakan < angkaKomputer) {
+                printf("Nomor saya lebih besar!\n");
+            } else if (tebakan > angkaKomputer) {
+                printf("Nomor saya lebih kecil!\n");
+            } else {
+                printf("Selamat, anda benar! Anda menebak angka %d dengan %d percobaan.\n", angkaKomputer, percobaan);
+            }
+        } while (tebakan != angkaKomputer);
+
+        printf("Apakah anda ingin bermain lagi? (y/n): ");
+        scanf(" %c", &bermainLagi);  
+
+    } while (bermainLagi == 'y' || bermainLagi == 'Y');
+
+    printf("Terima kasih telah bermain!\n");
+
+    return 0;
+}
