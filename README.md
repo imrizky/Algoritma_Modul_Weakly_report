@@ -36,7 +36,7 @@ Langkah 3: Jika ditemukan nilai yang lebih besar, perbarui nilai maksimum sement
 Langkah 4: Lanjutkan hingga semua elemen array diperiksa.
 Output: Nilai maksimum dari array.
 
-# Modul 2
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> # Modul 2
 Mengajarakan tentang Program dasar yang mana berisi tentang Program halo siapa nama mu penjelasan sedikit tentang program 
 ## Deklarasi variable
 
@@ -89,17 +89,8 @@ float luas; untuk menyimpan hasil perhitungan luas.
 
 Program menggunakan rumus untuk menghitung luas segitiga:
 Luas
-=
-1
-2
-×
-Alas
-×
-Tinggi
-Luas= 
-2
-1
-​
+= 1  × Alas x Tinggi Luas=  2
+​  2                         1 
  ×Alas×Tinggi
 Di dalam program ini, rumus ditulis sebagai luas = 0.5 * alas * tinggi;.
 
@@ -127,7 +118,7 @@ Di dalam program ini, rumus ditulis sebagai luas = panjang * lebar;.
 /
 Program menampilkan panjang, lebar, dan luas persegi panjang dalam satuan cm dan cm².
 
-# Modul 3
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture># Modul 3
 Pada modul ini Belajar tentag Variable, Konstata dan Tipe Data
 Inti dari sebuah program komputer adalah menerima input, melakukan
 pemrosesan, dan menghasilkan output. Nilai input bisa kita dapatkan dari
@@ -218,7 +209,7 @@ Luas permukaan dihitung dengan rumus tersebut, menggunakan jari-jari bola.
 
 Program menampilkan hasil diameter, jari-jari, volume, dan luas permukaan bola dengan dua angka di belakang koma.
 
-# Modul 4
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> # Modul 4
 Modul 4 ini berisi tentang Operator yaitu Operator adalah sebuah simbol. Simbol yang digunakan untuk melakukan
 operasi tertentu. Misalnya: Kita ingin menjumlahkan nilai dari variabel x dan y, maka kita bisa menggunakan operator penjumlahan (+).
 x + y
