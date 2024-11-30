@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+float konversi_rupiah_ke_dolar(float rupiah, float nilai_tukar) {
+    return rupiah / nilai_tukar;
+}
+
+int main() {
+    float rupiah, dolar;
+    float nilai_tukar = 15000; 
+
+    printf("Masukkan jumlah dalam Rupiah: ");
+    scanf("%f", &rupiah);
+
+    dolar = konversi_rupiah_ke_dolar(rupiah, nilai_tukar);
+
+    printf("%.2f Rupiah setara dengan %.2f Dolar AS.\n", rupiah, dolar);
+
+    return 0;
+}
