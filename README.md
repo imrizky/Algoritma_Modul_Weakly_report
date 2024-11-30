@@ -165,7 +165,6 @@ Perhitungan Konversi:
 ## Konversi ke Kelvin: 
 ```
 𝐾 = 𝐶 + 273.15
-K=C+273.15
 ```
 ## Konversi ke Fahrenheit: 
 ```
@@ -198,17 +197,18 @@ float volume, surface_area; untuk menyimpan hasil perhitungan volume dan luas pe
 ## Perhitungan Volume:
 
 Rumus volume bola:
-Volume
-= 4  × 𝜋 × 𝑟 3 ​                         
-  3
- 
+```
+Volume = 4  × 𝜋 × 𝑟 3 ​                         
+         3
+```
 Volume dihitung dengan rumus tersebut, menggunakan jari-jari bola.
 
 ## Perhitungan Luas Permukaan:
 
 Rumus luas permukaan bola:
+```
 Luas Permukaan = 4 × 𝜋 × 𝑟 2
- 
+```
  
 Luas permukaan dihitung dengan rumus tersebut, menggunakan jari-jari bola.
 
@@ -219,8 +219,9 @@ Program menampilkan hasil diameter, jari-jari, volume, dan luas permukaan bola d
 ## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 4
 Modul 4 ini berisi tentang Operator yaitu Operator adalah sebuah simbol. Simbol yang digunakan untuk melakukan
 operasi tertentu. Misalnya: Kita ingin menjumlahkan nilai dari variabel x dan y, maka kita bisa menggunakan operator penjumlahan (+).
+```
 x + y
-
+```
 ## Modul 4_1
 pada modul ini kita belajar tentang konversi waktu yang di mana di gunakan konversi waktu (Jam) 1 Jam, 1menit, 40Detik, maka rumus yang di gunakan sudah sesuai dengan rumus konversi yang di cantumkan ke dalam program 
 
