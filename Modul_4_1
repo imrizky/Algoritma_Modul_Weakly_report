@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int jumlah_detik;
+    int jam, menit, detik;
+
+    // Input dari 
+    printf("Masukan jumlah waktu dalam detik: ");
+    scanf("%d", &jumlah_detik);
+
+    // proses lokasi 
+    jam = jumlah_detik / 3600;
+    menit = (jumlah_detik % 3600) / 60;
+    detik = jumlah_detik % 60;
+
+    // Menampilkan hasil
+    printf("Hasil Output: %d Jam, %d Menit, %d Detik\n", jam, menit, detik);
+
+    return 0;
+}
