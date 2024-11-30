@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <string.h>
+
+// Mendefinisikan struktur untuk data mahasiswa
+struct Mahasiswa {
+    char npm[15];
+    char nama[50];
+    char tglLahir[15];
+    char alamat[100];
+    char hp[15];
+};
+
+int main() {
+    struct Mahasiswa mhs[100]; 
+    int i = 0;
+    char lagi;
+
+    do {
+        
+        printf("Masukkan Data Mahasiswa %d:\n", i + 1);
+        printf("NPM        : ");
+        scanf("%s", mhs[i].npm);
+        printf("NAMA       : ");
+        scanf(" %[^\n]%*c", mhs[i].nama);  
+        printf("TGL LAHIR : ");
+        scanf("%s", mhs[i].tglLahir);
+        printf("ALAMAT    : ");
+        scanf(" %[^\n]%*c", mhs[i].alamat);  
+        printf("HP        : ");
+        scanf("%s", mhs[i].hp);
+
+        printf("Mau memasukkan data lagi [y/t]? ");
+        scanf(" %c", &lagi); 
+
+        i++;
+    } while (lagi == 'y' || lagi == 'Y');
+
+    printf("\nData Mahasiswa yang telah dimasukkan:\n");
+    for (int j = 0; j < i; j++) {
+        printf("%s %s %s %s %s\n", mhs[j].npm, mhs[j].nama, mhs[j].tglLahir, mhs[j].alamat, mhs[j].hp);
+    }
+
+    return 0;
+}
