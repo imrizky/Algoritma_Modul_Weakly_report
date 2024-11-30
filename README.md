@@ -1,5 +1,5 @@
 > ```
-> Nama : Firnanda Rizki Pratama
+> Nama : Firnanda Rizki Pratama. Mt
 > NIM  : 24343008
 > Prody: Informatika
 > ```
