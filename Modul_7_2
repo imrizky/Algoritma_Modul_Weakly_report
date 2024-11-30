@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int n; 
+    char nama[100][100];  
+
+
+    printf("Input banyak mahasiswa: ");
+    scanf("%d", &n);
+
+    for(int i = 0; i < n; i++) {
+        printf("Input nama mahasiswa %d: ", i + 1);
+        getchar();  
+        fgets(nama[i], sizeof(nama[i]), stdin); 
+    }
+
+    printf("\nNama mahasiswa yang telah diinputkan:\n");
+    for(int i = 0; i < n; i++) {
+        printf("Nama mahasiswa ke-%d: %s", i + 1, nama[i]);
+    }
+
+    return 0;
+}
