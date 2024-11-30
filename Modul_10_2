@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+struct Zodiak {
+    char nama[20];
+    int mulaiBulan;
+    int mulaiTanggal;
+    int selesaiBulan;
+    int selesaiTanggal;
+};
+
+void tentukanZodiak(int tgl, int bln) {
+    struct Zodiak zodiak[] = {
+        {"CAPRICORN", 12, 22, 1, 19},
+        {"AQUARIUS", 1, 20, 2, 18},
+        {"PISCES", 2, 19, 3, 20},
+        {"ARIES", 3, 21, 4, 19},
+        {"TAURUS", 4, 20, 5, 20},
+        {"GEMINI", 5, 21, 6, 20},
+        {"CANCER", 6, 21, 7, 22},
+        {"LEO", 7, 23, 8, 22},
+        {"VIRGO", 8, 23, 9, 22},
+        {"LIBRA", 9, 23, 10, 22},
+        {"SCORPIO", 10, 23, 11, 21},
+        {"SAGITTARIUS", 11, 22, 12, 21}
+    };
+
+    for (int i = 0; i < 12; i++) {
+        if ((bln == zodiak[i].mulaiBulan && tgl >= zodiak[i].mulaiTanggal) || 
+            (bln == zodiak[i].selesaiBulan && tgl <= zodiak[i].selesaiTanggal)) {
+            printf("Zodiak Anda adalah : %s
