@@ -36,6 +36,9 @@ Langkah 3: Jika ditemukan nilai yang lebih besar, perbarui nilai maksimum sement
 Langkah 4: Lanjutkan hingga semua elemen array diperiksa.
 Output: Nilai maksimum dari array.
 
+# Modul 1_2
+Pada modul ini diminta untuk membuat sebuah program yaitu membuat sebuah printf untuk menampilkan kata "Hello Wolrd!"
+
 ## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 2
 Mengajarakan tentang Program dasar yang mana berisi tentang Program halo siapa nama mu penjelasan sedikit tentang program 
 ## Deklarasi variable
@@ -298,4 +301,41 @@ Program meminta input durasi menonton film dalam jam, kemudian menghitung total 
 Program menampilkan total biaya yang harus dibayar.
 
 ## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 5
+Pada Modul ini diajarkan tentang Flow Control Decision Makiing dimana pada modul ini di ajrakan cara untuk mengubah jalur eksekusi melalui program yang pasti menggunakan bahasa C dimana bahasa C paling cocok/recomended untuk belajar fllow control di dalam modul ini sudah menggunakan fitur if & else yaitu fitur pencabangan yang memiliki 2 pencabangan Dan fitur Switch Case ini sama saja dengan if & else hanya saja switch case adalah bentuk lain dari if else 
 
+# Modul 5_1
+Pada modul ini kita diminta  membuat sebuah kalkulator untuk memudahkan pengguna untuk melakukan berbagai operasi matematika dengan memilih sesuatu atau salah satu opsi dalm menu yang di buat dalm program . program akan mengimplemntasikan logika atau menggunnakan switch dan menangani kesalahan pembagian 0 untuk memastikan program tetap berjalan dengan baik
+
+## Deklarasi Variabel:
+
+angka1 dan angka2: dua bilangan input yang akan digunakan dalam perhitungan.
+hasil: untuk menyimpan hasil dari operasi penjumlahan, pengurangan, atau perkalian.
+hasilBagi: untuk menyimpan hasil pembagian (dalam bentuk desimal).
+pilihan: untuk memilih operasi yang akan dilakukan.
+
+## Menu Pilihan:
+
+Program menampilkan menu yang meminta pengguna memilih salah satu operasi:
+Penjumlahan (1)
+Pengurangan (2)
+Perkalian (3)
+Pembagian (4)
+Hasil Bagi (5)
+
+## Input Angka:
+
+Program meminta pengguna untuk memasukkan dua bilangan yang akan dihitung.
+Switch Statement:
+
+Berdasarkan pilihan pengguna, program akan melakukan operasi yang sesuai:
+Penjumlahan: Menggunakan operator +.
+Pengurangan: Menggunakan operator -.
+Perkalian: Menggunakan operator *.
+Pembagian: Menggunakan operator /, dan jika pembagi adalah 0, program akan menampilkan pesan error.
+Hasil Bagi: Menggunakan operator modulus (%), yang menghasilkan sisa bagi, dan jika pembagi adalah 0, program akan menampilkan pesan error.
+
+## Output:
+
+Program menampilkan hasil perhitungan sesuai dengan operasi yang dipilih.
+
+# modul 5_2
