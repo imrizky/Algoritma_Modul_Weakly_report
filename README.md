@@ -163,14 +163,18 @@ Program meminta pengguna untuk memasukkan suhu dalam Celcius menggunakan scanf("
 Perhitungan Konversi:
 
 ## Konversi ke Kelvin: 
+```
 𝐾 = 𝐶 + 273.15
 K=C+273.15
+```
 ## Konversi ke Fahrenheit: 
+```
 𝐹 = ( 𝐶 × 1.8 ) + 32
-
+```
 ## Konversi ke Reamur: 
+```
 𝑅 = 𝐶 × 0.8
-
+```
 ## Menampilkan Hasil:
 
 
