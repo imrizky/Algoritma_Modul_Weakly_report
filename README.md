@@ -418,5 +418,36 @@ Pada modul ini di berikan sedikit pembahsan tentang putaran atau perulangan.  da
 
 Loop atau perulangan merupakan konstruksi dalam aliran kontrol yang memungkinkan sebuah bagian dari kode untuk dieksekusi berulang kali berdasarkan kondisi tertentu. Penggunaan loop memberikan kemudahan dalam pemrograman, karena memungkinkan kita untuk menghindari penulisan kode yang berulang dan membuat program menjadi lebih ringkas dan efisien. Dengan loop, berbagai tugas yang membutuhkan pengulangan dapat dilakukan dengan lebih cepat dan sederhana, seperti mengolah data dalam array atau melakukan pengecekan yang berulang. Tipe-tipe loop yang umum digunakan dalam pemrograman termasuk for loop, while loop, dan do-while loop, yang masing-masing memiliki karakteristik dan kegunaan yang berbeda.
 
+## Moduol 6_1
+Pada Modul ini di minta untuk membuat program yang cukup sederhana dan efektif untuk menghasilkan kedua deret bilangan tersebut.
 
+## Deret Bilangan Genap:
 
+Untuk menghasilkan bilangan genap dari 0 hingga 50, kita mulai dari i = 0 dan menambahkannya dengan 2 pada setiap iterasi (menggunakan i += 2).
+
+## Deret Bilangan Ganjil:
+
+Untuk menghasilkan bilangan ganjil, kita mulai dari i = 1 dan menambahkannya dengan 2 pada setiap iterasi (menggunakan i += 2).
+
+## Cara kerja Program 
+Program dimulai dengan menampilkan deret bilangan genap dari 0 hingga 50 dengan menggunakan loop for yang memulai dari 0 dan menambah nilai i sebanyak 2 pada setiap iterasi.
+
+Program kemudian melanjutkan untuk menampilkan deret bilangan ganjil dengan cara yang sama, tetapi memulai dari 1 dan juga menambah nilai i sebanyak 2 pada setiap iterasi.
+
+## Modul 6_2
+Pada modul ini di minta juga membuat sebuah pola yang di buat melalui program pola tersebut menggunakan bintang lalu bintang tersebut di susun menggunakan program untuk membuat/membentuk segitiga siku siku dengan  jumlah bintang yang bertambah satu pada setiap barisnya 
+
+## Program ini menggunakan dua loop:
+Loop pertama (outer loop): Mengontrol jumlah baris, dimulai dari i = 1 hingga i = 5.
+Loop kedua (inner loop): Mengontrol jumlah bintang yang dicetak pada setiap baris. Jumlah bintang yang dicetak di baris ke-i adalah sebanyak i.
+
+Setiap kali loop pertama selesai, program mencetak karakter newline (\n) untuk pindah ke baris baru.
+
+## Modul 6_3
+Pada modul 6_3 ini di minta kembali membuat program yang sama dengan modul 6-3 sebelumnya bedanya seblumnya menggunakan bintang sekarang menggunakan angka, angka angka akan muncul dan bertambah 1 pada setiap barisnya sama seperti sebelumnya 
+
+Loop pertama (outer loop): Mengontrol jumlah baris, dimulai dari i = 1 hingga i = 5.
+
+Loop kedua (inner loop): Mengontrol jumlah angka yang dicetak pada setiap baris. Pada baris ke-i, program mencetak angka yang merupakan hasil perkalian i dengan j (dari 1 hingga i).
+
+Pada setiap iterasi loop pertama, program mencetak angka yang merupakan hasil perkalian i dengan j, diikuti oleh spasi. Setelah menyelesaikan satu baris, program mencetak karakter newline (\n) untuk pindah ke baris berikutnya.
