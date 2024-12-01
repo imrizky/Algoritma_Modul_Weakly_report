@@ -501,3 +501,64 @@ panjang maksimum 100 karakter.
 
 Perulangan untuk Input Nama: Menggunakan loop for untuk meminta nama mahasiswa satu per satu. Fungsi `scanf(" %[^\n]", nama_mahasiswa[i])` digunakan untuk membaca nama yang mengandung spasi.
 Menampilkan Nama Mahasiswa: Setelah semua nama diinputkan, program akan menampilkan nama mahasiswa dengan menggunakan perulangan `for`.
+
+## Modul 7_3 
+Pada modul ini di minta membuat sebuah program yang berisikan halaman login ke sebuah web/aplikasi dimana pengguna menginput username dan password, dan memberikan nontifikasi berhasil login jika username dan password nya benar da password salah untuk username/password salah
+
+### Deklarasi username dan password yang benar:
+
+Program menetapkan correctUsername dan correctPassword sebagai nilai yang benar.
+
+### Menerima input dari pengguna:
+
+Program meminta pengguna untuk memasukkan username dan password menggunakan scanf.
+
+### Memeriksa kecocokan:
+
+Program menggunakan strcmp untuk membandingkan input yang diberikan oleh pengguna dengan nilai yang benar. Fungsi strcmp akan mengembalikan nilai 0 jika kedua string tersebut sama.
+
+### Notifikasi:
+
+Jika username dan password yang dimasukkan sesuai dengan yang benar, maka program menampilkan "Berhasil login!".
+Jika salah, maka program menampilkan "Password salah.".
+
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 8 Fungsi & Prosedur 
+Dalam modul ini di berikan materi tentang fungsi dan prosedur 2 hal ini dapat membantu memecahkan program menjadi bagian bagian yang lebih kecil dan terorganisir, funngsi juga dapat mengembalikan nilai setelah proses tertentu sedangkan prosedur sendiri melakukan tugas atau aksi tanpa mengembalikan nilai 
+
+## Modul 8_1
+Pada modul ini di mnts untuk membuat program perkalian dua bilangan bulat positif menggunnakann metide penjumlahan bilangan yang dapat mendifinisaikan sebuah fungsi yang akan menjunmlahkan bilangan 
+
+### Fungsi perkalian (int a, int b):
+
+Fungsi ini menggunakan rekursi untuk menghitung perkalian.
+Kondisi dasar: Jika b == 0, maka hasil perkalian adalah 0. Ini adalah kondisi penghentian rekursi.
+Rekursi: Jika b != 0, fungsi akan mengembalikan nilai a + perkalian(a, b-1), yang artinya akan menambahkan a sebanyak b kali.
+
+### Fungsi main():
+
+Program meminta input dari pengguna untuk dua bilangan bulat (angka1 dan angka2).
+Fungsi perkalian() dipanggil dengan dua argumen tersebut, dan hasilnya dicetak ke layar.
+
+## Modul 8_2
+Pada modull ini si minta membuat program perhitungan aritmatik seperti penjumlahan, penguranngan, perkalian, dan pembagian. Nantinya program akan meminta untuk di inputkan 2 bilangan dan jenis operasi yang dilakukan, lalu memanggil fungsi sesuai untu menghitung hasilnya.
+
+## Fungsi Aritmetik:
+
+`penjumlahan(float a, float b)`: Mengembalikan hasil penjumlahan `a + b`.
+`pengurangan(float a, float b)`: Mengembalikan hasil pengurangan `a - b`.
+`perkalian(float a, float b)`: Mengembalikan hasil perkalian `a * b`.
+`pembagian(float a, float b)`: Mengembalikan hasil pembagian `a / b`, tetapi terlebih dahulu memeriksa apakah `b` tidak sama dengan 0 untuk menghindari pembagian dengan nol. 
+
+## Fungsi main():
+
+Program meminta input dua bilangan (`num1` dan `num2`).
+Program kemudian meminta input dari pengguna untuk memilih operasi aritmetik (penjumlahan, pengurangan, perkalian, atau pembagian).
+Berdasarkan pilihan operasi, program memanggil fungsi yang sesuai dan menampilkan hasilnya.
+
+## Validasi Pembagian dengan Nol:
+
+Untuk operasi pembagian, ada pengecekan apakah `b` adalah nol. Jika iya, program akan menampilkan pesan error dan tidak melakukan pembagian.
+
+## Switch-case:
+
+Digunakan untuk memilih operasi yang diinginkan berdasarkan input pengguna. Program akan memanggil fungsi yang sesuai untuk operasi yang dipilih.
