@@ -12,34 +12,29 @@
 # <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>    Algoritma_Modul
 
 ## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 1
-#Apa itu Algoritma 
-adalah serangkaian langkah-langkah atau instruksi yang sistematis dan terstruktur untuk menyelesaikan suatu masalah atau mencapai tujuan tertentu. Dalam pengertian yang lebih teknis, algoritma adalah urutan instruksi atau prosedur yang jelas, yang dapat dieksekusi untuk menghasilkan solusi dari suatu masalah.
+#Apa itu Algoritma?
+Algoritma adalah serangkaian langkah atau instruksi yang sistematis dan terstruktur untuk menyelesaikan suatu masalah atau mencapai tujuan tertentu. Secara sederhana, algoritma dapat diartikan sebagai prosedur yang jelas dan terarah, yang bisa dijalankan untuk menghasilkan solusi dari suatu masalah.
 
-Karakteristik Algoritma:
-Langkah-langkah yang Terdefinisi dengan Jelas: Setiap langkah dalam algoritma harus jelas dan tidak ambigu. Instruksi yang diberikan harus mudah dipahami dan diterjemahkan ke dalam kode oleh komputer.
-
-Terstruktur: Algoritma harus mengikuti urutan yang logis dan terstruktur. Tidak boleh ada langkah yang hilang atau tumpang tindih dalam proses penyelesaian masalah.
-
-Input dan Output: Algoritma menerima input, yaitu data yang diberikan untuk diproses, dan menghasilkan output, yaitu hasil dari pemrosesan data tersebut.
-
-Akhir yang Jelas: Algoritma harus memiliki titik akhir yang jelas. Artinya, algoritma harus berhenti setelah menjalankan serangkaian langkah.
-
-Efisien: Algoritma harus dapat menyelesaikan masalah dengan cara yang efisien dalam hal waktu dan sumber daya.
-
+## Karakteristik Algoritma:
+Langkah yang Jelas: Setiap langkah dalam algoritma harus terdefinisi dengan jelas. Instruksi yang diberikan harus mudah dipahami dan dapat diimplementasikan dalam bentuk kode oleh komputer.
+Terstruktur: Algoritma harus mengikuti urutan yang logis. Tidak boleh ada langkah yang tumpang tindih atau terlewat dalam proses penyelesaian masalah.
+Input dan Output: Algoritma membutuhkan input, yakni data yang akan diproses, dan menghasilkan output, yang merupakan hasil pemrosesan data tersebut.
+Titik Akhir yang Jelas: Algoritma harus memiliki akhir yang jelas, artinya proses akan berhenti setelah semua langkah dijalankan.
+Efisien: Algoritma yang baik harus mampu menyelesaikan masalah dengan cepat dan menggunakan sumber daya yang minimal.
 Contoh Algoritma:
 Misalnya, kita ingin mencari nilai maksimum dalam sebuah array (deretan angka):
 
-Input: Sebuah array dengan elemen-elemen angka.
-Langkah 1: Tentukan nilai maksimum sementara, misalnya nilai pertama dari array.
-Langkah 2: Bandingkan nilai maksimum sementara dengan setiap elemen dalam array.
-Langkah 3: Jika ditemukan nilai yang lebih besar, perbarui nilai maksimum sementara.
-Langkah 4: Lanjutkan hingga semua elemen array diperiksa.
+Input: Sebuah array dengan beberapa angka.
+Langkah 1: Tentukan nilai maksimum sementara, misalnya ambil angka pertama dari array.
+Langkah 2: Bandingkan nilai maksimum sementara dengan setiap angka dalam array.
+Langkah 3: Jika ditemukan angka yang lebih besar, perbarui nilai maksimum sementara.
+Langkah 4: Lanjutkan proses ini sampai seluruh angka dalam array diperiksa.
 Output: Nilai maksimum dari array.
-
+Dengan mengikuti langkah-langkah ini, algoritma akan menyelesaikan masalah pencarian nilai maksimum dalam array tersebut.
 # Modul 1_2
 Pada modul ini diminta untuk membuat sebuah program yaitu membuat sebuah printf untuk menampilkan kata "Hello Wolrd!"
 
-# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 2
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 2 Pemograman Dasar C 
 Dalam setiap bahasa pemrograman, terdapat aturan penulisan kode yang disebut sintaks. Sintaks ini sangat penting untuk dipahami karena menentukan bagaimana kode ditulis dan diinterpretasikan oleh compiler atau interpreter. Dalam konteks bahasa pemrograman C, struktur dasar program dibagi menjadi dua bagian utama: bagian Include dan blok fungsi Main.
 
 Bagian Include: Di bagian paling awal dari program C, kita menemukan perintah #include. Perintah ini digunakan untuk memasukkan file header yang berisi deklarasi fungsi-fungsi yang sudah didefinisikan sebelumnya. Header file memungkinkan programmer untuk mengakses berbagai fitur tambahan yang tidak secara langsung tersedia dalam program. Misalnya, file header yang umum digunakan adalah stdio.h, yang berisi deklarasi fungsi dasar seperti printf() dan scanf(). Dengan mengimpor file ini, programmer dapat menggunakan fungsi-fungsi tersebut dalam program mereka tanpa perlu mendefinisikan ulang fungsi-fungsi tersebut.
@@ -231,7 +226,7 @@ Luas permukaan dihitung dengan rumus tersebut, menggunakan jari-jari bola.
 
 Program menampilkan hasil diameter, jari-jari, volume, dan luas permukaan bola dengan dua angka di belakang koma.
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 4
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 4 Operator 
 Modul 4 ini berisi tentang Operator yaitu Operator adalah sebuah simbol. Simbol yang digunakan untuk melakukan
 operasi tertentu. Misalnya: Kita ingin menjumlahkan nilai dari variabel x dan y, maka kita bisa menggunakan operator penjumlahan (+).
 ```
@@ -320,7 +315,7 @@ Jika durasi lebih dari 1 jam, biaya pertama adalah Rp 15.000, dan untuk jam-jam 
 Program meminta input durasi menonton film dalam jam, kemudian menghitung total biaya berdasarkan durasi tersebut.
 Program menampilkan total biaya yang harus dibayar.
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 5
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 5 Flow Control: Decisionn Making 
 Pada Modul ini diajarkan tentang Flow Control Decision Makiing dimana pada modul ini di ajrakan cara untuk mengubah jalur eksekusi melalui program yang pasti menggunakan bahasa C dimana bahasa C paling cocok/recomended untuk belajar fllow control di dalam modul ini sudah menggunakan fitur if & else yaitu fitur pencabangan yang memiliki 2 pencabangan Dan fitur Switch Case ini sama saja dengan if & else hanya saja switch case adalah bentuk lain dari if else 
 
 # Modul 5_1
@@ -467,3 +462,37 @@ Loop kedua (inner loop): Mengontrol jumlah angka yang dicetak pada setiap baris.
 
 Pada setiap iterasi loop pertama, program mencetak angka yang merupakan hasil perkalian i dengan j, diikuti oleh spasi. Setelah menyelesaikan satu baris, program mencetak karakter newline (\n) untuk pindah ke baris berikutnya.
 
+# Modul 6_4 
+Pada modul ini di minta untuk membuatkan program tentang Program bagaimana ATM berjalan yang mana pengguna dinamakan Hattori, disini hattori memungkinkan untuk melakukan pengecekan saldo,  setoran, dan penarikan dengan aturan saldo minimal 50k 
+
+Cek Saldo: Menampilkan saldo terkini dari akun Hattori.
+
+Setoran: Menambahkan jumlah yang disetor ke saldo.
+
+Penarikan Tunai: Memeriksa apakah saldo yang tersisa setelah penarikan masih lebih dari Rp. 50.000. Jika ya, saldo akan dikurangi dengan jumlah penarikan. Jika tidak, penarikan akan gagal dan menampilkan pesan kesalahan.
+
+Menu ATM: Menyediakan pilihan untuk cek saldo, setoran, penarikan, dan keluar dari program.
+
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 7 Struktur Data: Array
+Array adalah sebuah struktur data yang digunakan untuk menyimpan sekumpulan data dengan tipe yang sama dalam satu tempat atau variabel. Di dalam array, setiap elemen atau data yang disimpan memiliki indeks atau posisi tertentu yang dimulai dari angka 0. Dengan adanya indeks ini, kita dapat mengakses atau memanipulasi data dengan mudah.
+
+## Modul 7_1
+Pada modul ini di minta untuk membuat program mencari rata rata nilai dari 20 mahasiswa menggunakan array. Program ini meminta kepada pengguna untuk memasaukan nilai mahasiswa satu persatu kemudian program akan menghitung rata rata nilai untuk ke 20 mahasiswa tersebut.
+
+Array nilai_mahasiswa[20]: Array ini digunakan untuk menyimpan nilai-nilai dari 20 mahasiswa.
+Loop for: Digunakan untuk meminta input nilai dari setiap mahasiswa. Setiap nilai yang dimasukkan disimpan di dalam array `nilai_mahasiswa` dan ditambahkan ke variabel `total_nilai`.
+
+Menghitung rata-rata: Setelah nilai seluruh mahasiswa dimasukkan, rata-rata dihitung dengan cara membagi `total_nilai` dengan jumlah mahasiswa (20).
+
+Menampilkan hasil: Rata-rata nilai ditampilkan dengan dua angka di belakang koma menggunakan format `%.2f`.
+
+## Modul 7_2 
+Pada modul ini di minta  untuk membuat program ini untuk menampung berapa banyak jumlah mahasiswa lalu di minta untuk memasuikan nama mahasiswa sebanyak jumlah ang di berikan pengguna ke program sebelumnya, lalu program akan menampilkan nama anam yang telah di inputkan sesuai urutan yang di masukan di awal.
+
+Input Jumlah Mahasiswa: Program meminta pengguna untuk memasukkan jumlah mahasiswa yang akan diinputkan.
+
+Array nama_mahasiswa: Digunakan untuk menyimpan nama mahasiswa. Array ini memiliki ukuran yang ditentukan oleh jumlah mahasiswa yang dimasukkan. Setiap elemen array adalah string dengan 
+panjang maksimum 100 karakter.
+
+Perulangan untuk Input Nama: Menggunakan loop for untuk meminta nama mahasiswa satu per satu. Fungsi `scanf(" %[^\n]", nama_mahasiswa[i])` digunakan untuk membaca nama yang mengandung spasi.
+Menampilkan Nama Mahasiswa: Setelah semua nama diinputkan, program akan menampilkan nama mahasiswa dengan menggunakan perulangan `for`.
