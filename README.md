@@ -39,7 +39,16 @@ Output: Nilai maksimum dari array.
 # Modul 1_2
 Pada modul ini diminta untuk membuat sebuah program yaitu membuat sebuah printf untuk menampilkan kata "Hello Wolrd!"
 
-## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 2
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 2
+Dalam setiap bahasa pemrograman, terdapat aturan penulisan kode yang disebut sintaks. Sintaks ini sangat penting untuk dipahami karena menentukan bagaimana kode ditulis dan diinterpretasikan oleh compiler atau interpreter. Dalam konteks bahasa pemrograman C, struktur dasar program dibagi menjadi dua bagian utama: bagian Include dan blok fungsi Main.
+
+Bagian Include: Di bagian paling awal dari program C, kita menemukan perintah #include. Perintah ini digunakan untuk memasukkan file header yang berisi deklarasi fungsi-fungsi yang sudah didefinisikan sebelumnya. Header file memungkinkan programmer untuk mengakses berbagai fitur tambahan yang tidak secara langsung tersedia dalam program. Misalnya, file header yang umum digunakan adalah stdio.h, yang berisi deklarasi fungsi dasar seperti printf() dan scanf(). Dengan mengimpor file ini, programmer dapat menggunakan fungsi-fungsi tersebut dalam program mereka tanpa perlu mendefinisikan ulang fungsi-fungsi tersebut.
+
+Blok Fungsi Main: Setelah bagian Include, program C biasanya memiliki blok fungsi Main, yang merupakan titik awal eksekusi program. Fungsi Main adalah fungsi yang wajib ada dalam setiap program C, dan di sinilah logika utama dari program ditempatkan. Semua perintah yang ingin dijalankan saat program dieksekusi harus dituliskan di dalam blok fungsi Main.
+
+Secara keseluruhan, pemahaman tentang struktur dasar program C, termasuk bagian Include dan fungsi Main, sangat penting bagi programmer. Dengan memahami cara menggunakan header file dan fungsi-fungsi yang ada di dalamnya, programmer dapat membuat program yang lebih kompleks dan efisien dengan memanfaatkan fungsi-fungsi yang telah tersedia. Hal ini juga membantu dalam menjaga kerapihan dan keterbacaan kode, serta mengurangi kemungkinan kesalahan dalam penulisan kode.
+
+# Modul 2_1
 Mengajarakan tentang Program dasar yang mana berisi tentang Program halo siapa nama mu penjelasan sedikit tentang program 
 ## Deklarasi variable
 
@@ -52,6 +61,8 @@ Input nama dilakukan dengan fgets(nama, sizeof(nama), stdin);, yang memungkinkan
 
 Setelah mendapatkan input dari pengguna, program akan menampilkan pesan selamat datang dengan printf("Selamat Datang, %s dalam Pemrograman C!\n", nama);.
 %s digunakan dalam format string untuk menampilkan nilai yang tersimpan dalam variabel nama.
+
+
 # Modul_2_2
 pada modul ini kita di berikan untuk membuat data secara dinamus dan menghitug nilai akhir sesuai dengan rumus yang telah di berikan 
 
@@ -92,9 +103,10 @@ float luas; untuk menyimpan hasil perhitungan luas.
 
 Program menggunakan rumus untuk menghitung luas segitiga:
 Luas
+```
 = 1  × Alas x Tinggi Luas=  2
 ​  2                         1 
- ×Alas×Tinggi
+```
 Di dalam program ini, rumus ditulis sebagai luas = 0.5 * alas * tinggi;.
 
 ## Menampilkan Hasil:
@@ -128,6 +140,9 @@ pemrosesan, dan menghasilkan output. Nilai input bisa kita dapatkan dari
 keyboard, file, kamera, mikrofon, dan sebagainya. Sementara output dapat kita
 tampilkan ke monitor, cetak ke dokumen, atau ke dalam sebuah file. Pada tahap pemrosesan, program membutuhkan bantuan variabel untuk menyimpan nilai
 sementara.
+
+# Modul 3 Variable, Konstata & Tipe Data
+pada modul ini belajar tentang variable, bahwa dalam pengembangan program komputer, proses dasar terdiri dari tiga tahap utama: menerima input, melakukan pemrosesan, dan menghasilkan output. Input dapat diperoleh dari berbagai sumber seperti keyboard, file, atau perangkat lainnya, sementara output dapat ditampilkan di monitor, dicetak, atau disimpan dalam file. Untuk melakukan pemrosesan, program memerlukan variabel sebagai tempat untuk menyimpan nilai sementara, dan setiap variabel memiliki tipe data yang menentukan jenis nilai yang dapat disimpan. Dengan demikian, pemahaman tentang variabel dan tipe data sangat penting dalam algoritma dan pemrograman. 
 
 # Modul 3_1
 Program ini Memungkinkan untuk dapat mengkonversilan nilai rupiah yang berbeda-beda, cukup dengan memasukan jumlah rupiah yang di inginkan
@@ -451,3 +466,4 @@ Loop pertama (outer loop): Mengontrol jumlah baris, dimulai dari i = 1 hingga i 
 Loop kedua (inner loop): Mengontrol jumlah angka yang dicetak pada setiap baris. Pada baris ke-i, program mencetak angka yang merupakan hasil perkalian i dengan j (dari 1 hingga i).
 
 Pada setiap iterasi loop pertama, program mencetak angka yang merupakan hasil perkalian i dengan j, diikuti oleh spasi. Setelah menyelesaikan satu baris, program mencetak karakter newline (\n) untuk pindah ke baris berikutnya.
+
