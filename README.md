@@ -620,7 +620,7 @@ B  O  R  L  A  N  D
 ^  ^  ^  ^  ^  ^  ^
 0  1  2  3  4  5  6
 ```
-Misalnya, str[0] berisi 'B', str[1] berisi 'O', dan seterusnya.
+Misalnya, `str[0]` berisi `'B'`, str[1] berisi `'O'`, dan seterusnya.
 Looping dengan Pointer: Program ini menggunakan dua loop untuk mencetak bagian dari string "BORLAND" secara bertahap.
 
 ### Loop pertama (i loop):
@@ -628,7 +628,7 @@ Looping dengan Pointer: Program ini menggunakan dua loop untuk mencetak bagian d
 ```c
 for (int i = 0; i < 7; i++) {
 ```
-Loop pertama ini mengontrol berapa banyak karakter yang akan dicetak pada setiap baris. Nilai i dimulai dari 0 dan berakhir di 6 (karena panjang string "BORLAND" adalah 7).
+Loop pertama ini mengontrol berapa banyak karakter yang akan dicetak pada setiap baris. Nilai i dimulai dari 0 dan berakhir di 6 (karena panjang string `"BORLAND"` adalah 7).
 Dalam setiap iterasi loop ini, kita akan mulai mencetak substring dari posisi `i` hingga akhir string `"BORLAND"`.
 
 ### Loop kedua (j loop):
