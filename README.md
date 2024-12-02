@@ -663,9 +663,15 @@ BORLAND
 ### Penjelasan output secara rinci:
 
 Iterasi 1 (i = 0): Mencetak karakter `'D'` (dimulai dari indeks ke-6).
+
 Iterasi 2 (i = 1): Mencetak karakter `'N'` hingga `'D'` (dimulai dari indeks ke-5).
+
 Iterasi 3 (i = 2): Mencetak karakter `'A'` hingga `'D'` (dimulai dari indeks ke-4).
+
 Iterasi 4 (i = 3): Mencetak karakter `'L'` hingga `'D'` (dimulai dari indeks ke-3).
+
 Iterasi 5 (i = 4): Mencetak karakter `'R'` hingga `'D'` (dimulai dari indeks ke-2).
+
 Iterasi 6 (i = 5): Mencetak karakter `'O'` hingga `'D'` (dimulai dari indeks ke-1).
+
 Iterasi 7 (i = 6): Mencetak seluruh string `'BORLAND'` (dimulai dari indeks ke-0).
