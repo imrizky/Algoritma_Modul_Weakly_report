@@ -433,7 +433,7 @@ Pada modul ini di berikan sedikit pembahsan tentang putaran atau perulangan.  da
 
 Loop atau perulangan merupakan konstruksi dalam aliran kontrol yang memungkinkan sebuah bagian dari kode untuk dieksekusi berulang kali berdasarkan kondisi tertentu. Penggunaan loop memberikan kemudahan dalam pemrograman, karena memungkinkan kita untuk menghindari penulisan kode yang berulang dan membuat program menjadi lebih ringkas dan efisien. Dengan loop, berbagai tugas yang membutuhkan pengulangan dapat dilakukan dengan lebih cepat dan sederhana, seperti mengolah data dalam array atau melakukan pengecekan yang berulang. Tipe-tipe loop yang umum digunakan dalam pemrograman termasuk for loop, while loop, dan do-while loop, yang masing-masing memiliki karakteristik dan kegunaan yang berbeda.
 
-## Moduol 6_1
+## Modul 6_1
 Pada Modul ini di minta untuk membuat program yang cukup sederhana dan efektif untuk menghasilkan kedua deret bilangan tersebut.
 
 ## Deret Bilangan Genap:
