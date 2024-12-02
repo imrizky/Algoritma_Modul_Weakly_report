@@ -610,7 +610,7 @@ Sebagai contoh, dalam program, kita mungkin mendeklarasikan dua variabel: `umur`
 di modul ini diminta membuat program pointer, program ini menggunakan potinter untuk menghasilkan keluaran sesaui yang di minta. Dan juga Program ini menggunakan pointer dan pointer arithmetic untuk mengakses dan mencetak karakter-karakter dari string `BORLAND`.
 
 Deklarasi Pointer untuk String:
-```
+```c
 char *str = "BORLAND";
 ```
 Di sini, kita mendeklarasikan sebuah pointer `str` yang bertipe data `char*`, yang menunjuk ke string `"BORLAND"`. String ini disimpan di memori secara kontigu, dan pointer str menunjuk ke alamat pertama dari string tersebut.
@@ -625,7 +625,7 @@ Looping dengan Pointer: Program ini menggunakan dua loop untuk mencetak bagian d
 
 ### Loop pertama (i loop):
 
-```
+```c
 for (int i = 0; i < 7; i++) {
 ```
 Loop pertama ini mengontrol berapa banyak karakter yang akan dicetak pada setiap baris. Nilai i dimulai dari 0 dan berakhir di 6 (karena panjang string "BORLAND" adalah 7).
@@ -633,7 +633,7 @@ Dalam setiap iterasi loop ini, kita akan mulai mencetak substring dari posisi `i
 
 ### Loop kedua (j loop):
 
-```
+```c
 for (int j = i; j < 7; j++) {
     printf("%c", *(str + j));
 }
