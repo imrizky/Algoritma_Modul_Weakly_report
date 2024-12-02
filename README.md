@@ -562,3 +562,110 @@ Untuk operasi pembagian, ada pengecekan apakah `b` adalah nol. Jika iya, program
 ## Switch-case:
 
 Digunakan untuk memilih operasi yang diinginkan berdasarkan input pengguna. Program akan memanggil fungsi yang sesuai untuk operasi yang dipilih.
+
+## Modul 8_3
+Pada modul ini kita diminta untui membuat program menghitung luas dan keliling lingkaran menggunakan fungsi `luas()` dan `keliling ()`.
+
+### Konstanta PHI :
+Program menggunakan konstanta `PHI = 3.14` sebagai nilai perkiraan dari π 
+(pi) untuk menghitung luas dan keliling lingkaran.
+
+### Fungsi luas(float r) :
+Fungsi ini menerima parameter `r` (jari-jari lingkaran) dan mengembalikan nilai luas lingkaran dengan rumus 
+```
+𝜋 𝑟 2 πr 6 ^2
+```
+### Fungsi `keliling(float r)` :
+Fungsi ini juga menerima parameter r dan mengembalikan nilai keliling lingkaran dengan rumus 
+```
+2 𝜋 𝑟
+```
+### Main Function :
+Fungsi main() digunakan untuk mengambil input jari-jari dari pengguna, kemudian memanggil fungsi `luas()` dan `keliling()` untuk menghitung dan menampilkan hasilnya.
+
+## Modul 8_4
+Pada modul ini diminta untuk membuat program menhitung besar potongan diskon berdasarkan jumlah pembelian, dengan menggunakan fungsi `potong()` untuk menghitung besar potongan atau untuk menhitung potongan harga karena di beri diskon 
+
+### Fungsi potong(float total):
+-Fungsi ini menerima parameter `total` yang merupakan jumlah pembelian.
+-Fungsi akan memeriksa nilai total pembelian dan memberikan diskon sesuai dengan ketentuan:
+-Tidak ada diskon jika total kurang dari 1 juta.
+-Diskon 20% jika total antara 1 juta dan 3 juta.
+-Diskon 35% jika total lebih dari 3 juta.
+
+### Main Function:
+-Mengambil input jumlah pembelian (totalPembelian) dari pengguna.
+-Memanggil fungsi potong() untuk menghitung besar potongan diskon.
+-Menghitung jumlah yang harus dibayarkan setelah potongan (totalPembelian - diskon).
+-Menampilkan besar diskon dan total yang harus dibayarkan.
+
+Jika pengguna memasukan jumlah pembelian 2.5 Juta, maka diskon yang di berikan adalah 20% (500,000). dan total yang harus di bayar adalah 2 juta.
+
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture>  Modul 9 Pointer 
+Pada program komputer, setiap variabel yang dideklarasikan akan disimpan di memori (biasanya RAM) dengan alamat memori tertentu. Alamat memori ini adalah lokasi tempat data variabel disimpan dan bisa dianggap sebagai referensi atau identifikasi untuk variabel tersebut.
+
+Sebagai contoh, dalam program, kita mungkin mendeklarasikan dua variabel: `umur` dan `tinggi`. Variabel ini akan memiliki alamat memori masing-masing. Misalnya, variabel `umur` disimpan pada alamat memori `0001`, dan variabel `tinggi` disimpan pada alamat memori `0002`. Alamat memori ini digunakan oleh sistem untuk mengakses dan memanipulasi data dalam variabel tersebut.
+
+## Modul 9_1
+di modul ini diminta membuat program pointer, program ini menggunakan potinter untuk menghasilkan keluaran sesaui yang di minta. Dan juga Program ini menggunakan pointer dan pointer arithmetic untuk mengakses dan mencetak karakter-karakter dari string `BORLAND`.
+
+Deklarasi Pointer untuk String:
+```
+char *str = "BORLAND";
+```
+Di sini, kita mendeklarasikan sebuah pointer `str` yang bertipe data `char*`, yang menunjuk ke string `"BORLAND"`. String ini disimpan di memori secara kontigu, dan pointer str menunjuk ke alamat pertama dari string tersebut.
+String `"BORLAND"` terdiri dari karakter-karakter sebagai berikut:
+```
+B  O  R  L  A  N  D
+^  ^  ^  ^  ^  ^  ^
+0  1  2  3  4  5  6
+```
+Misalnya, str[0] berisi 'B', str[1] berisi 'O', dan seterusnya.
+Looping dengan Pointer: Program ini menggunakan dua loop untuk mencetak bagian dari string "BORLAND" secara bertahap.
+
+### Loop pertama (i loop):
+
+```
+for (int i = 0; i < 7; i++) {
+```
+Loop pertama ini mengontrol berapa banyak karakter yang akan dicetak pada setiap baris. Nilai i dimulai dari 0 dan berakhir di 6 (karena panjang string "BORLAND" adalah 7).
+Dalam setiap iterasi loop ini, kita akan mulai mencetak substring dari posisi `i` hingga akhir string `"BORLAND"`.
+
+### Loop kedua (j loop):
+
+```
+for (int j = i; j < 7; j++) {
+    printf("%c", *(str + j));
+}
+```
+Di dalam loop pertama, kita memiliki loop kedua yang digunakan untuk mencetak karakter-karakter dari string.
+
+j dimulai dari nilai i (yang meningkat pada setiap iterasi loop pertama) hingga 6, dan kita menggunakan pointer untuk mengakses karakter yang sesuai.
+
+Pointer Arithmetic: `*(str + j)` adalah cara untuk mengakses karakter di posisi ke-j dalam string "BORLAND". `str + j` adalah operasi pointer yang menggeser alamat pointer `str` sebanyak `j` posisi. Dengan kata lain, jika `str` menunjuk ke `'B'`, maka `str + j` menunjuk ke karakter di posisi `j`. Setelah itu, kita dereferensikan pointer dengan `*` untuk mendapatkan nilai karakter di alamat tersebut.
+
+Contoh:
+
+Ketika `i = 0` dan `j = 0`, maka `*(str + 0)` mengakses karakter pertama `'B'`.
+Ketika `i = 1` dan `j = 1`, maka `*(str + 1)` mengakses karakter kedua `'O'`.
+
+Output: Setelah loop kedua selesai, kita mencetak karakter-karakter sesuai urutan yang diinginkan dan berlanjut ke baris baru dengan `printf("\n");`. Pada setiap iterasi loop pertama, karakter yang dicetak bertambah, menghasilkan output seperti yang diminta:
+
+```
+D
+ND
+AND
+LAND
+RLAND
+ORLAND
+BORLAND
+```
+### Penjelasan output secara rinci:
+
+Iterasi 1 (i = 0): Mencetak karakter `'D'` (dimulai dari indeks ke-6).
+Iterasi 2 (i = 1): Mencetak karakter `'N'` hingga `'D'` (dimulai dari indeks ke-5).
+Iterasi 3 (i = 2): Mencetak karakter `'A'` hingga `'D'` (dimulai dari indeks ke-4).
+Iterasi 4 (i = 3): Mencetak karakter `'L'` hingga `'D'` (dimulai dari indeks ke-3).
+Iterasi 5 (i = 4): Mencetak karakter `'R'` hingga `'D'` (dimulai dari indeks ke-2).
+Iterasi 6 (i = 5): Mencetak karakter `'O'` hingga `'D'` (dimulai dari indeks ke-1).
+Iterasi 7 (i = 6): Mencetak seluruh string `'BORLAND'` (dimulai dari indeks ke-0).
