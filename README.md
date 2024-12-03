@@ -680,27 +680,39 @@ Iterasi 7 (i = 6): Mencetak seluruh string `'BORLAND'` (dimulai dari indeks ke-0
 pada moudl ini diminta untuk membuat program yang menampilkan kalimat terbalik program ini akan membalikan kalimat yang di masukan oleh pengguna.
 secara keseluruhan, program ini bisa di biang memberikan contoh penerapan dasar pemograman bahasa c sperti array, loop, dan manipulasi astring untuk tujuan tertentu.
 
-Program ini menggunakan fungsi `fgets` untuk membaca input kalimat dari pengguna.
-Kemudian, program akan membalikkan kalimat dengan menampilkan karakter-karakter dari belakang ke depan menggunakan loop `for`.
-Fungsi `strlen` digunakan untuk mengetahui panjang kalimat, dan `strcspn` digunakan untuk menghapus karakter newline yang ada setelah input.
-
-## Modul 9_3
-Pada modul ini di minta membuat program mengenai variable biasa dan pointer dan digunakan untuk menghitung nilai berdasarkan instruksi yang di berikan 
-
 ### Deklarasi dan Inisialisasi Variabel:
-Variabel `Lesley` diinisialisasi dengan nilai 57082.
-Variabel `Layla` disamakan dengan nilai Lesley, yaitu 57082.
-Variabel `Balmond` dihitung dengan menambahkan 1 pada nilai Layla, yaitu `57082 + 1 = 57083.`
+`Lesley` diberi nilai 57082.
+`Layla` disamakan dengan `Lesley` (nilai 57082).
+`Balmond` dihitung dengan menambahkan 1 pada nilai `Layla`, sehingga `Balmond = 57082 + 1 = 57083`.
 
 ### Output:
-Program menampilkan nilai dari `Layla` dan `Balmond` sesuai dengan perhitungan yang diberikan.
+Program menampilkan nilai `Layla` dan `Balmond` berdasarkan nilai langsung.
 
-Hasil Output:
+### Pointer dan Referensi:
+`Layla` diset sebagai pointer yang menunjuk ke alamat variabel `Lesley` menggunakan `&Lesley`.
+`Balmond` dihitung dengan mengakses nilai yang ditunjuk oleh `Layla` (yaitu nilai `Lesley`), dan kemudian ditambahkan 1. `Balmond = *Layla + 1 = 57082 + 1 = 57083`.
+
+### output:
+Program menampilkan alamat yang disimpan di pointer `Layla` dan nilai `Balmond` yang dihitung berdasarkan dereferensi pointer `Layla`.
+
+### Hasil Output:
 ```c
+#### Bagian A:
 a) Nilai Layla: 57082
 b) Nilai Balmond: 57083
-```
-Program ini akan memberikan jawaban yang sesuai dengan pertanyaan yang diberikan, yaitu:
 
-Nilai Layla adalah 57082.
-Nilai Balmond adalah 57083.
+#### Bagian B:
+a) Nilai Layla (pointer): 0x7ffee1b4e32c  // Alamat memori yang menunjuk ke Lesley
+b) Nilai Balmond (pointer): 57083
+```
+### Penjelasan Hasil:
+#### Bagian A:
+`Layla` memiliki nilai 57082 (karena disalin dari `Lesley`).
+`Balmond` adalah 57083 (nilai `Layla` + 1).
+
+#### Bagian B:
+`Layla` adalah pointer yang menyimpan alamat memori dari `Lesley`. Hasil `&Lesley` menunjukkan alamat memori di mana `Lesley` disimpan (alamat ini akan berbeda-beda di setiap eksekusi program).
+`Balmond` dihitung sebagai nilai dari `Lesley` yang ditunjuk oleh pointer `Layla` (57082), ditambah 1, sehingga hasilnya adalah 57083.
+
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 10 Enumasi & Structure 
+Pada moul ini diajarkan tentang `Enum` atau enumeration adalah tipe data 
