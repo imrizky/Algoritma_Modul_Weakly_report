@@ -675,3 +675,32 @@ Iterasi 5 (i = 4): Mencetak karakter `'R'` hingga `'D'` (dimulai dari indeks ke-
 Iterasi 6 (i = 5): Mencetak karakter `'O'` hingga `'D'` (dimulai dari indeks ke-1).
 
 Iterasi 7 (i = 6): Mencetak seluruh string `'BORLAND'` (dimulai dari indeks ke-0).
+
+## Modul 9_2
+pada moudl ini diminta untuk membuat program yang menampilkan kalimat terbalik program ini akan membalikan kalimat yang di masukan oleh pengguna.
+secara keseluruhan, program ini bisa di biang memberikan contoh penerapan dasar pemograman bahasa c sperti array, loop, dan manipulasi astring untuk tujuan tertentu.
+
+Program ini menggunakan fungsi `fgets` untuk membaca input kalimat dari pengguna.
+Kemudian, program akan membalikkan kalimat dengan menampilkan karakter-karakter dari belakang ke depan menggunakan loop `for`.
+Fungsi `strlen` digunakan untuk mengetahui panjang kalimat, dan `strcspn` digunakan untuk menghapus karakter newline yang ada setelah input.
+
+## Modul 9_3
+Pada modul ini di minta membuat program mengenai variable biasa dan pointer dan digunakan untuk menghitung nilai berdasarkan instruksi yang di berikan 
+
+### Deklarasi dan Inisialisasi Variabel:
+Variabel `Lesley` diinisialisasi dengan nilai 57082.
+Variabel `Layla` disamakan dengan nilai Lesley, yaitu 57082.
+Variabel `Balmond` dihitung dengan menambahkan 1 pada nilai Layla, yaitu `57082 + 1 = 57083.`
+
+### Output:
+Program menampilkan nilai dari `Layla` dan `Balmond` sesuai dengan perhitungan yang diberikan.
+
+Hasil Output:
+```c
+a) Nilai Layla: 57082
+b) Nilai Balmond: 57083
+```
+Program ini akan memberikan jawaban yang sesuai dengan pertanyaan yang diberikan, yaitu:
+
+Nilai Layla adalah 57082.
+Nilai Balmond adalah 57083.
