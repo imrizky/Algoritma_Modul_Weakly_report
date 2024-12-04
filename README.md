@@ -814,85 +814,22 @@ Menutup File (Closing a File): Setelah selesai melakukan operasi pada file, kita
 
 ### Modul 11_1
 Pada modul ini ialah membuat program data mahasiswa  yang bisa di simpan kedalam `datamahasiswa.txt` program ini juga menggunakan perulangan untuk memasukan data mahasiswa sebanyak mungkin.
-```c
-#include <stdio.h>
-#include <stdlib.h>
 
-struct Mahasiswa {
-    char nama[50];
-    char nim[15];
-    char jurusan[50];
-    char programStudi[50];
-};
-
-void simpanDataKeFile(struct Mahasiswa mhs, FILE *file) {
-    // Menulis data mahasiswa ke file
-    fprintf(file, "Nama: %s\n", mhs.nama);
-    fprintf(file, "NIM: %s\n", mhs.nim);
-    fprintf(file, "Jurusan: %s\n", mhs.jurusan);
-    fprintf(file, "Program Studi: %s\n", mhs.programStudi);
-    fprintf(file, "---------------------------------------\n");
-}
-
-int main() {
-    FILE *file = fopen("datamahasiswa.txt", "w");  // Membuka file untuk menulis
-    if (file == NULL) {
-        printf("Gagal membuka file untuk menulis!\n");
-        return 1;
-    }
-
-    int jumlahMahasiswa;
-    printf("Masukkan jumlah mahasiswa: ");
-    scanf("%d", &jumlahMahasiswa);
-    getchar();  // Membersihkan newline setelah input angka
-
-    struct Mahasiswa mhs;
-
-    // Perulangan untuk memasukkan data mahasiswa
-    for (int i = 1; i <= jumlahMahasiswa; i++) {
-        printf("\nMasukkan data mahasiswa ke-%d\n", i);
-        
-        printf("Nama: ");
-        fgets(mhs.nama, sizeof(mhs.nama), stdin);
-        mhs.nama[strcspn(mhs.nama, "\n")] = 0;  // Menghapus newline
-        
-        printf("NIM: ");
-        fgets(mhs.nim, sizeof(mhs.nim), stdin);
-        mhs.nim[strcspn(mhs.nim, "\n")] = 0;  // Menghapus newline
-        
-        printf("Jurusan: ");
-        fgets(mhs.jurusan, sizeof(mhs.jurusan), stdin);
-        mhs.jurusan[strcspn(mhs.jurusan, "\n")] = 0;  // Menghapus newline
-        
-        printf("Program Studi: ");
-        fgets(mhs.programStudi, sizeof(mhs.programStudi), stdin);
-        mhs.programStudi[strcspn(mhs.programStudi, "\n")] = 0;  // Menghapus newline
-
-        // Menyimpan data ke file
-        simpanDataKeFile(mhs, file);
-    }
-
-    fclose(file);  // Menutup file setelah selesai menulis
-
-    printf("\nData mahasiswa telah disimpan di file 'datamahasiswa.txt'.\n");
-
-    return 0;
-}
-```
 #### Struktur Mahasiswa:
-
-Program menggunakan struktur Mahasiswa untuk menyimpan data mahasiswa, yaitu nama, nim, jurusan, dan programStudi.
+Program menggunakan struktur `Mahasiswa` untuk menyimpan data mahasiswa, yaitu `nama`, `nim`, `jurusan`, dan `programStudi`.
 
 #### Fungsi simpanDataKeFile:
-Fungsi ini bertanggung jawab untuk menulis data mahasiswa ke dalam file datamahasiswa.txt.
-Fungsi fprintf digunakan untuk menulis data mahasiswa ke file dengan format yang rapi.
+Fungsi ini bertanggung jawab untuk menulis data mahasiswa ke dalam file `datamahasiswa.txt`.
+Fungsi `fprintf` digunakan untuk menulis data mahasiswa ke file dengan format yang rapi.
 
 #### Input Data Mahasiswa:
-Program meminta input untuk nama, NIM, jurusan, dan program studi setiap mahasiswa. Fungsi fgets digunakan untuk membaca string yang dapat mencakup spasi.
+Program meminta input untuk nama, NIM, jurusan, dan program studi setiap mahasiswa. Fungsi `fgets` digunakan untuk membaca string yang dapat mencakup spasi.
 Setelah input, program menulis data mahasiswa ke file.
 
 #### Perulangan:
-Program meminta jumlah mahasiswa yang akan dimasukkan. Kemudian, menggunakan perulangan for, program akan meminta input untuk setiap mahasiswa dan menuliskannya ke file.
+Program meminta jumlah mahasiswa yang akan dimasukkan. Kemudian, menggunakan perulangan `for`, program akan meminta input untuk setiap mahasiswa dan menuliskannya ke file.
 
 #### Penutupan File:
-Setelah semua data dimasukkan, program menutup file dengan fclose(file).
+Setelah semua data dimasukkan, program menutup file dengan `fclose(file)`.
+
+### Modul 11_2
