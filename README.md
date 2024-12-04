@@ -3,7 +3,7 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=5000&color=851c73&center=true&vCenter=true&width=1000&lines=Algoritma+Pemrograman" alt="Typing SVG" /></a>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=50&duration=3000&pause=5000&color=32A8BBFF&center=true&vCenter=true&width=2000&lines=Randi+Proska+Sandra+S.Pd,+M.Sc" alt="Typing SVG" /></a>
 
-> ```py
+> ```js
 > Nama : Firnanda Rizki Pratama. Mt
 > NIM  : 24343008
 > Prody: Informatika
@@ -800,5 +800,16 @@ Program ini menggunakan array untuk menyimpan data mahasiswa. `jumlahMahasiswa` 
 Program meminta input dari pengguna dan menyimpannya ke dalam array `mahasiswa`. Setelah itu, program akan menanyakan apakah pengguna ingin memasukkan data lagi.
 Jika pengguna memilih untuk berhenti (jawab 't' atau 'T'), program akan menampilkan daftar semua mahasiswa yang telah dimasukkan.
 
-# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 11 Gile Handing in C
+# <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> Modul 11 File Handing in C
+Pada modul ini diajarkan tentang handing in c ini mengacu pada operasi untuk mrmbaca, menulis, membuka, dan menutup file. 
 
+#### Operasi Dasar dalam File Handling di C:
+Membuka File (Opening a File): Sebelum kita dapat melakukan operasi lain (seperti membaca atau menulis), kita harus membuka file terlebih dahulu menggunakan fungsi `fopen()`.
+
+Membaca dari File (Reading from a File): Setelah file dibuka, kita dapat membaca data dari file menggunakan fungsi `fscanf()`, `fgets()`, atau `fgetc()`.
+
+Menulis ke File (Writing to a File): Kita bisa menulis data ke file menggunakan fungsi `fprintf()`, `fputs()`, atau `fputc()`.
+
+Menutup File (Closing a File): Setelah selesai melakukan operasi pada file, kita harus menutup file menggunakan fungsi `fclose()`.
+
+### Modul 11_1
