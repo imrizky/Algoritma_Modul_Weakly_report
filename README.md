@@ -833,3 +833,6 @@ Program meminta jumlah mahasiswa yang akan dimasukkan. Kemudian, menggunakan per
 Setelah semua data dimasukkan, program menutup file dengan `fclose(file)`.
 
 ### Modul 11_2
+Pada modul ini diminta untuk menunjukan hasil dari output dan data yang masuk ke dalam `datamahasiswa.txt` untuk hasilnya bisa di lihat di screnshoot yang sudah tertera di atas.
+
+#Terima Kasih
