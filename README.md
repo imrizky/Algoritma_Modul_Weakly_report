@@ -835,4 +835,6 @@ Setelah semua data dimasukkan, program menutup file dengan `fclose(file)`.
 ### Modul 11_2
 Pada modul ini diminta untuk menunjukan hasil dari output dan data yang masuk ke dalam `datamahasiswa.txt` untuk hasilnya bisa di lihat di screnshoot yang sudah tertera di atas.
 
-# Terima Kasih
+![Banner](31815b2f755e58836c603c02b3c7baad.gif)
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=5000&color=851c73&center=true&vCenter=true&width=1000&lines=Terima+Kasih" alt="Typing SVG" /></a>
